@@ -1,0 +1,120 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Language selector styling */
+.language-selector {
+    margin-top: 10px;
+}
+
+.language-selector label {
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    margin-bottom: 15px;
+}
+
+.news-item h3 {
+    font-size: 1.4em;
+    color: #003366;
+}
+
+button, a.button {
+    background-color: #003366;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover, a.button:hover {
+    background-color: #ff6600;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
